@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "irs_mem": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://irsdb:Irshakun29@localhost/toko3",
+    "database": "toko3",
+    "password": "Irshakun29",
+    "name": "irs_mem",
+    "user": "irsdb",
+    "connector": "mysql"
+  }
+}

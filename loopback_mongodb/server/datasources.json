@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql_irs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://irsdb:Irshakun29@localhost/toko2",
+    "database": "toko2",
+    "password": "Irshakun29",
+    "name": "mysql_irs",
+    "user": "irsdb",
+    "connector": "mysql"
+  },
+  "mongtoko": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://irs:4567@localhost:27017/toko",
+    "database": "toko",
+    "password": "4567",
+    "name": "mongtoko",
+    "user": "irs",
+    "connector": "mongodb"
+  }
+}
